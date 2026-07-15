@@ -9,10 +9,10 @@ function isLeapYear(year) {
     }
 }
 const isYear = isLeapYear(2023);
-// console.log(isYear)
+// console.log(isYear)  //output : false
 
 
-//1.those year that is not divisible by 100,if the year is divisible by 4:then
+//1.those year that is not divisible by 100,if the year is divisible by 4:theny
 //it will be a leap year   
 
 

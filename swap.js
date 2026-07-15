@@ -6,9 +6,9 @@ console.log(a, b);  //7 5
 // b = a;
 // console.log(a, b);  //5 5
 
-const temp = a;
+const store = a;
 a = b;
-b = temp;
+b = store;
 console.log(a, b)
 
 
@@ -17,5 +17,6 @@ let x = 5;
 let y = 8;
 
 console.log(x, y);
+
 [x, y] = [y, x];
 console.log(x, y);

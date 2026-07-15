@@ -1,8 +1,9 @@
-const min = Math.min(45, 33, 22, 12, -76, 40)
-console.log(min)   //output -76
+const smallNumber = Math.min(45, 33, 22, 12, -76, 40)
+console.log(smallNumber)   //output -76
 
-const max = Math.max(33, 76, 90, -98, 12, 234)
-console.log(max)
+
+const big = Math.max(33, 76, 90, -98, 12, 234)
+console.log(big) //234
 
 console.log(Math.PI)  //3.1416
 
@@ -16,7 +17,7 @@ console.log(Math.floor(4.21))   //4   //floor cut ther fractional part
 console.log(Math.floor(4.87))   //4
 
 
-console.log(Math.ceil(4.21))   //5 //ceil uo ther number
+console.log(Math.ceil(4.21))   //5 //ceil up ther number
 console.log(Math.ceil(4.87))   //5
 
 console.log(Math.random())   //this function give (0 to 1) number  
